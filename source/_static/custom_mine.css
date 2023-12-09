@@ -1,0 +1,27 @@
+/* This file intentionally left blank. */
+.sphinxsidebarwrapper {
+  width: 400px; /* This should match the width of .sphinxsidebar */
+}
+.documentwrapper {
+  margin-left: -180px; /* Adjust so there's space between the sidebar and the content */
+}
+.document {
+  max-width: none; /* If you want the main content to use the available space */
+}
+
+/* Adjust the main content area */
+.bodywrapper {
+  margin-left: 450px !important; /* This should be at least the width of the sidebar plus some extra space */
+  width: 800px !important;
+  /* padding: 1; */
+}
+
+div.bodywrapper div.body section h2 {
+  font-size: 1em; /* Adjust the size as desired */
+  font-weight: bold;
+}
+
+div.bodywrapper div.body section h3 {
+  font-size: 1em; /* Adjust the size as desired */
+  font-weight: bold;
+}
